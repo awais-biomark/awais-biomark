@@ -24,6 +24,7 @@ import LogisticsCancelSamplePopup from '../Extras/LogisticsCancelSamplePopup';
 import LogisticsDelivered from '../Extras/LogisticsDelivered';
 import LogisticsQrCodeScan from '../Extras/LogisticsQrCodeScan';
 
+
 const WebRoutes = () => {
   return (
     <BrowserRouter>
@@ -51,6 +52,7 @@ const WebRoutes = () => {
         <Route path='/logistics_confirmation' element={<LogisticsConfirmation />} />
         <Route path='/logistics_delivered' element={<LogisticsDelivered />} />
         <Route path='/logistics_qr_code_scan' element={<LogisticsQrCodeScan />} />
+        {/* <Route path='/logistics_history' element={<LogisticsHistory />} /> */}
       </Routes>
     </BrowserRouter>
   );
