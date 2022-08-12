@@ -24,6 +24,7 @@ import LogisticsDelivered from '../LogisticsModule/LogisticsDelivered';
 import LogisticsQrCodeScan from '../LogisticsModule/LogisticsQrCodeScan';
 import LogisticsHistory from '../LogisticsModule/LogisticsHistory';
 
+
 const WebRoutes = () => {
   return (
     <BrowserRouter>
@@ -51,6 +52,7 @@ const WebRoutes = () => {
         <Route path='/logistics_delivered' element={<LogisticsDelivered />} />
         <Route path='/logistics_qr_code_scan' element={<LogisticsQrCodeScan />} />
         <Route path='/logistics_history' element={<LogisticsHistory />} />
+
 
 
       </Routes>

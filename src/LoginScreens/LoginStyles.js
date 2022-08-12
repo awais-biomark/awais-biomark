@@ -28,6 +28,16 @@ export const loginPageStyles = makeStyles(() => ({
     fontSize: '20px !important',
     "&.css-qivjh0-MuiStepLabel-label": {},
   },
+  textFiled: {
+    minWidth: "320px !important",
+    maxWidth: "320px !important",
+    width: "320px !important",
+
+
+    "& .MuiFormHelperText-root ": {
+      marginLeft: "4 !important",
+    },
+  },
   notFoundSubHeading: {
     "&.MuiStepLabel-label-root": {
       fontSize: "30px !important",
